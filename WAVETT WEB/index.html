@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WAVETT</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="main-header">
+      <div class="logo">WAVETT</div>
+  
+      <!-- Botón menú desplegable -->
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+  
+      <!-- Menú desplegable -->
+      <nav id="main-menu" class="dropdown-menu">
+        <a href="#">SHOP</a>
+        <a href="contacto.html">CONTACT</a>
+      </nav>
+    </header>
+  
+    <section class="hero-section">
+      <img src="/imagenes/quiero un banner web de sneakers hype.jpg" alt="Zapatillas" class="hero-bg" />
+      <div class="hero-overlay">
+        <span class="left-vertical">ALEJANDRO MARTINEZ</span>
+        <div class="centered-title">
+          <h1><span class="box">WAVETT</span></h1>
+        </div>
+        <span class="right-vertical">TRENDS FOR 2025</span>
+      </div>
+    </section>
+  
+    <nav class="brand-menu">
+      <a href="#" class="active">TODAS</a>
+      <a href="#">NIKE</a>
+      <a href="#">NEW BALANCE</a>
+      <a href="#">ADIDAS</a>
+      <a href="#">YEEZY</a>
+      <a href="#">JORDAN</a>
+    </nav>
+  
+    <div class="parent">
+      <div class="div1"><img src="/imagenes/AJ1 BLUE.webp" alt=""></div>
+      <div class="div2"><img src="/imagenes/NIKE90.webp" alt=""></div>
+      <div class="div3"><img src="/imagenes/SAMBA.webp" alt=""></div>
+      <div class="div4"><img src="/imagenes/adidas.webp" alt=""></div>
+      <div class="div5"><img src="/imagenes/NW 1690.webp" alt=""></div>
+      <div class="div6"><img src="/imagenes/FORUM BB.webp" alt=""></div>
+      <div class="div7"><img src="/imagenes/RESPONSE CL.webp" alt=""></div>
+      <div class="div8"><img src="/imagenes/AJ4 MB.webp" alt=""></div>
+    </div>
+  
+    <footer class="main-footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>WAVETT</h3>
+            <p>Tu destino para zapatillas urbanas, modernas y exclusivas.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces</h4>
+            <ul>
+              <li><a href="#">Shop</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Email: support@wavett.com</p>
+            <p>Tel: +34 600 123 456</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 WAVETT. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+      
+    <script>
+      const toggleBtn = document.getElementById("menu-toggle");
+      const menu = document.getElementById("main-menu");
+  
+      toggleBtn.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+    </script>
+  </body>
+  </html>
+</html>
+
